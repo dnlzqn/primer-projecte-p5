@@ -1,4 +1,4 @@
-let w = 400;
+llet w = 400;
 let h = 600;
 
 let mic;
@@ -7,7 +7,8 @@ function setup(){
     createCanvas(windowWidth, windowHeight);
     background('red');
 
-    
+    mic = new p5.AudioIn();
+    mic.start();
 }
 
 function draw(){

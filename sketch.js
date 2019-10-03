@@ -1,4 +1,4 @@
-llet w = 400;
+let w = 400;
 let h = 600;
 
 let mic;
